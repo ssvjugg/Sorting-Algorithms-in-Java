@@ -16,6 +16,10 @@ public class MainTest {
     @Test
     public void testBubbleSort() {
         Main.bubbleSort(arr);
-        
+    }
+
+    @Test
+    public void testSelectionSort() {
+        Main.selectionSort(arr);
     }
 }
